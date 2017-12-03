@@ -1,1 +1,5 @@
-<?php echo "Green Project at ".gethostname().". >> ".date("Y-m-d H:i:s"); ?>
+<?php
+   include 'config.inc.php'; 
+   echo "Green Project at ".gethostname().".\n";
+   echo $footer;
+?>
